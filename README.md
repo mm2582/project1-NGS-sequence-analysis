@@ -18,4 +18,4 @@ I structured the pipeline into five modular functions (Steps 1-5). This separate
 
 ## Testing
 
-I tested each function with five categories of input. For `validate_read`, I tested a read with both wrong length and invalid characters to verify the error codes were returned in the correct order. For `find_mutations`, I tested a perfect match to ensure it correctly returned an empty list `[]`. For `analyse_reads`, I used a mini-dataset of six reads including valid, invalid, and lowercase inputs, then used `assert` to verify the output dictionary structure exactly matched the specification.
+I tested each function with three categories of input. For `validate_read`, I tested a read with both wrong length and invalid characters to verify the error codes were returned in the correct order. For `find_mutations`, I tested a perfect match to ensure it correctly returned an empty list `[]`. For `analyse_reads`, I used a mini-dataset of six reads including valid, invalid, and lowercase inputs, then used `assert` to verify the output dictionary structure exactly matched the specification.
